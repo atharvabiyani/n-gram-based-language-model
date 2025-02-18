@@ -116,3 +116,8 @@ if __name__ == "__main__":  # main
     add_k_bigram.train(train_data)  # train 
     print("add-k bigram perplexity:", add_k_bigram.find_perplexity(val_data))  # compute perplexity
 
+    print("unigram training perplexity:", unigram.find_perplexity(train_data))  
+    print("bigram training perplexity:", bigram.find_perplexity(train_data))  
+    print("laplace unigram training perplexity:", laplace_unigram.find_perplexity(train_data))  
+    print("add-k bigram training perplexity:", add_k_bigram.find_perplexity(train_data))  
+
