@@ -16,6 +16,6 @@ This project implements an **N-Gram Language Model** with support for **unigram 
 
 ## **Usage**
 1. Place your training data in `train.txt` and validation data in `val.txt`.
-2. Run the script:
+2. Run the script in bash:
    ```bash
    python ngram_model.py
